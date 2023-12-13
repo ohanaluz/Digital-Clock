@@ -1,0 +1,77 @@
+* {
+    font-family: 'Kalnia', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(40deg, #eeaeca, #94bbe9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header{
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 25px;
+}
+
+
+#titulo{
+    color:#7b7ecf;
+    font-size: 35px;
+}
+#titulo:hover{
+    color: #868ad4;
+    transition: 0.5s;
+}
+
+
+#subtitulo{
+    color: #868ad4;
+    
+}
+#subtitulo:hover{
+    color: #7b7ecf;
+    transition: 0.5s;
+}
+
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgb(178, 128, 126);
+}
+
+.relogio div{
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #C1D4D9;
+    background-color: #9599E2 ;
+    box-shadow: 5px 5px 15px #8BC6EC;
+    border-radius: 8px;
+    letter-spacing: 3px;
+}
+
+.relogio span {
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+.relogio span.tempo {
+    font-size: 17px;
+
+}
